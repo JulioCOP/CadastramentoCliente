@@ -15,8 +15,7 @@ class Cliente:
                     return f'\033[7;31;40mNão foi informado nenhum valor\033[m'
                 else:  # se tudo der certo, retorne o número informado
                     return num
-        self._cpf = leiaint(" ")
-
+        self._cpf= leiaint(" ")
         #parametros n e fone são criados para inicialização dos atributos
 
     #comando pass= nenhuma estrutura foi definida ainda
