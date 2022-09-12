@@ -6,11 +6,11 @@ from Cliente import Cliente
 from Conta import Conta
 #referência de classe
 
-primeiro_cliente= Cliente("João","31987651234")
+primeiro_cliente= Cliente("João")
 #declarar um novo objeto =  declarar um nova variavel
 #Cliente(strings) = nome da classe instanciada + atributos do metodo construtor
 
 
-print(primeiro_cliente.nome, " e ", "Nº de telefone:",primeiro_cliente.telefone)
-conta= Conta(primeiro_cliente.nome, 450, 0)
-print(conta.titular, "Numero da conta:", conta.numero, "Saldo R$:",conta.saldo)
+print(primeiro_cliente._nome, " e ", "Nº do CPF:",primeiro_cliente._cpf)
+conta= Conta(primeiro_cliente._nome, 125)
+print(conta._titular, "Numero da conta:", conta._numero, "Saldo R$:",f"{conta._saldo:.2f}")
