@@ -6,7 +6,7 @@ from Cliente import Cliente
 from Conta import Conta
 #referência de classe
 
-primeiro_cliente= Cliente("João")
+primeiro_cliente= Cliente(" ")
 #declarar um novo objeto =  declarar um nova variavel
 #Cliente(strings) = nome da classe instanciada + atributos do metodo construtor
 
